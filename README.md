@@ -82,4 +82,37 @@ In `routes.js` we are taking all the `routes.json` files of every folder of the 
 In `services.js` we are creaing a service object so that we can easily access the service file of every pi using `setup` global variable.
 
 
+### cron folder
+The folder conatins cron files.
+
+
+ ### db folder
+ The `db` folder contains three folder `migrations`,`models` and `seeders`.The `migration` folder contains the migration file that talk to our mtysql database.The `models` folder contains model file.
+
+ ### function folder
+ The function folder can contains many folder and file inside it .
+
+ ### Middleware folder
+ The middleware folder contains the file that contains global middlewares.
+
+ ### uploads folder
+ The folder will contains the uploaded files of the user.
+
+ ### .sequelizerc
+ The sequelizerc file esatblishes the connection between folder and database.json file.
+
+ ## app.js
+ The core logic part of the application comes in `app.js` file.
+
+
+ ***
+
+ ## cli command for the setup
+
+ >For working fast in this setup we have customclicmd that you can visit on [CustomCmd](https://github.com/NavneetPal/customclicommand)
+
+ The above setup provides you with the basics command like:
+ framework init : To setup the project
+ framework create-module : To  create a new api module in api folder along with controller,middleware,services and routes.json file.
+ framework create-api : to create a new `endpoint`
  
