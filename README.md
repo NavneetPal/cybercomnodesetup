@@ -1,5 +1,5 @@
 # Nodejs Setup with sequelize as an orm model
-
+The documentation of the project is : [Documentation](https://docs.google.com/document/d/1FgItK5lLW0D0jOA8eBNheRA2F4n2jDvBpkhyRQltweE/edit)
 ## Version 1.0.0
 
 ## Usage
