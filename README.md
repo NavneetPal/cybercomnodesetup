@@ -112,7 +112,9 @@ The folder conatins cron files.
  >For working fast in this setup we have customclicmd that you can visit on [CustomCmd](https://github.com/NavneetPal/customclicommand)
 
  The above setup provides you with the basics command like:
+
  framework init : To setup the project
+
  framework create-module : To  create a new api module in api folder along with controller,middleware,services and routes.json file.
- framework create-api : to create a new `endpoint`
- 
+
+ framework create-api : To create a new `endpoint`
