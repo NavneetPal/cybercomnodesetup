@@ -4,7 +4,8 @@ const umzug=require('./core/migration');
 require('./core/models');
 require('./core/function');
 require('./core/services');
-require('./core/multer')
+require('./core/multer');
+require('./core/moduleFunction');
 const express=require('express');
 const app=express();
 const chalk=require('chalk');
