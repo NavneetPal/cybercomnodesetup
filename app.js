@@ -17,11 +17,14 @@ const fp=require('find-free-port');
 const morgan=require('morgan');
 const config=require('./config/config.json');
 const crons=require('./core/cron');
+const path=require('path');
 
 
 //Middleware
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended:true}));
 app.use(cookieParser());
+app.use('/docs',express.static(path.join(__dirname,'docs')));
 
 let morganBody='';
 morgan.token('header', function (req) { return JSON.stringify(req.headers) })
