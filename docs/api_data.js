@@ -220,6 +220,52 @@ define({ "api": [
     "groupTitle": "Blog"
   },
   {
+    "type": "post",
+    "url": "/blog/submit",
+    "title": "Submit the Blog",
+    "name": "submit",
+    "group": "Blog",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "File",
+            "optional": false,
+            "field": "image",
+            "description": "<p>Blog image</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "File",
+            "optional": false,
+            "field": "resume",
+            "description": "<p>User Resume</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "title",
+            "description": "<p>Title of the blog</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "examples": [
+        {
+          "title": "Succcess-Response",
+          "content": "HTTP/1.1 200 OK\n{\n  message:\"Information is submitted\",\n  body:\"request body will comes here\",\n  files:\"files will come here\"\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "version": "0.0.0",
+    "filename": "./example.js",
+    "groupTitle": "Blog"
+  },
+  {
     "success": {
       "fields": {
         "Success 200": [

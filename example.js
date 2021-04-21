@@ -87,3 +87,22 @@
  *     data:"This page is only accessible to admin only"
  * }
  */
+
+
+/**
+ * @api {post} /blog/submit Submit the Blog
+ * @apiName submit
+ * @apiGroup Blog
+ * 
+ * @apiParam {File} image Blog image
+ * @apiParam {File} resume User Resume
+ * @apiParam {String} title Title of the blog
+ * 
+ * @apiSuccessExample {json} Succcess-Response
+ * HTTP/1.1 200 OK
+ * {
+ *   message:"Information is submitted",
+ *   body:"request body will comes here",
+ *   files:"files will come here"
+ * }
+ */
