@@ -76,6 +76,25 @@
     "groupTitle": "Auth"
   },
   {
+    "type": "get",
+    "url": "/auth/protected",
+    "title": "Admin dashboard",
+    "name": "adminDashBoard",
+    "group": "Auth",
+    "success": {
+      "examples": [
+        {
+          "title": "Success-Response",
+          "content": "HTTP/1.1 200 OK\n{\n    message:\"welcome to admin page ADMIN NAME\"\",\n    data:\"This page is only accessible to admin only\"\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "version": "0.0.0",
+    "filename": "./example.js",
+    "groupTitle": "Auth"
+  },
+  {
     "type": "post",
     "url": "/signup",
     "title": "User Signup",

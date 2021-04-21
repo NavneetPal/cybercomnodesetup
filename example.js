@@ -73,3 +73,17 @@
  * }
  * 
  */
+
+
+/**
+ * @api {get} /auth/protected Admin dashboard
+ * @apiName adminDashBoard
+ * @apiGroup Auth
+ * 
+ * @apiSuccessExample {json} Success-Response
+ * HTTP/1.1 200 OK
+ * {
+ *     message:"welcome to admin page ADMIN NAME"",
+ *     data:"This page is only accessible to admin only"
+ * }
+ */
