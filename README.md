@@ -32,13 +32,16 @@ The folder structure of the setup will looks like these
 * core
 * cron
 * db
+* docs
 * functions
 * Middleware
 * uploads
 * .env
 * .gitignore
 * .sequelizerc
+* apidoc.json
 * app.js
+* example.js
 * package.json
 
 Now lets talk about each folder and its functionality
@@ -103,7 +106,14 @@ The folder conatins cron files.
 
  ## app.js
  The core logic part of the application comes in `app.js` file.
+ 
+ ## docs folder
+  The docs folder contain the template that get render for the documentation and it use ejs,hbs templating engine and you can see the documentation page by opening index.html inside the docs folder.
 
+ ## apidoc.json
+  The apidoc.json file contains the information about the title,version and the description of your documentation.
+ ## example.js
+  The example.js file contains the documentation for every endpoint of the apis and it help us to create the proper documentation for the restful api. The name of the file can be anything i have given the name example.js you can gve any name you want. 
 
  ***
 
