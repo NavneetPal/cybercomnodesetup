@@ -122,7 +122,7 @@ The folder conatins cron files.
 
 
  ## Documentation of the Restful-Api
- You can see the documentation of the restful api on `localhost:5000/docs` .The documentation is coming from the apidocs package that we have used and you can create your own documentation in the file `example.js` and whenever you add the documentation for the new endpoint then you have to run the commands `npm run docs` and it will get addded to the documentation. 
+ You can see the documentation of the restful api on `localhost:5000/docs` .The documentation is coming from the `apidocs` package that we have used and you can create your own documentation in the file `example.js` and whenever you add the documentation for the new endpoint then you have to run the commands `npm run docs` and it will get addded to the documentation. 
 
  There is docs folder which contains the template that get render when you go to these url `localhost:5000/docs` and there is also a file known as `apidoc.json` which contains the information about the version and the description of the documentation. You can write the apidoc.json content in the package.json also and then you don't have to create that file. Its your choice whteher you want to create it or add it to the package.json but i prefer creating that file in apidoc.json.
 
